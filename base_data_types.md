@@ -1,7 +1,5 @@
 # [На главную](https://github.com/xXxCLOTIxXx/python_couch)
 
-# Python Data Types Cheat Sheet
-
 ## 1. Integer (`int`)
 Целые числа без дробной части.
 
