@@ -8,3 +8,4 @@
 ## 4) [Циклы и генераторы](loops_and_generators.md)
 ## 5) [Функции](functions.md)
 ## 6) [Аннотации типов данных](annotations.md)
+## 7) [ООП](object_oriented_programming.md)
