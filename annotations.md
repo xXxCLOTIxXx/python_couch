@@ -54,7 +54,47 @@ def is_even(n: int) -> bool:
 
 
 
+# 5. Сложные аннотации типов:
 
+## 1. int | float: обозначает, что значение может быть либо целым числом, либо числом с плавающей точкой. Используется с Python 3.10 и выше.
+
+```python
+
+def process_number(value: int | float) -> float:
+    return float(value) * 2
+```
+## 2. Списки:
+list[str]: список, где каждый элемент — строка.
+
+```python
+
+def concatenate_words(words: list[str]) -> str:
+    return ' '.join(words)
+```
+## 3. Словари:
+dict[int, str]: словарь, где ключи — целые числа, а значения — строки.
+
+```python
+
+def get_name_by_id(id_map: dict[int, str], id: int) -> str:
+    return id_map.get(id, "Unknown")
+```
+## 4. Множества:
+set[int]: множество, содержащее целые числа.
+
+```python
+
+def unique_numbers(numbers: set[int]) -> set[int]:
+    return set(numbers)
+```
+## 5. Кортежи:
+tuple[str, int]: кортеж, состоящий из строки и целого числа.
+
+```python
+
+def process_data(data: tuple[str, int]) -> str:
+    return f"{data[0]}: {data[1]}"
+```
 
 
 
