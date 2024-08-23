@@ -7,3 +7,4 @@
 ## 3) [Условные операторы](conditional_operators.md)
 ## 4) [Циклы и генераторы](loops_and_generators.md)
 ## 5) [Функции](functions.md)
+## 6) [Аннотации типов данных](annotations.md)
